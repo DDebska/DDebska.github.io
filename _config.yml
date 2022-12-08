@@ -2,22 +2,3 @@ theme: jekyll-theme-minimal
 title: Strona zaliczeniowa
 description: Bookmark this to keep an eye on my project updates!
 
-collections:
-  authors:
-    output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
